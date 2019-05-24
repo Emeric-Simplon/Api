@@ -23,7 +23,8 @@
         font-weight: 600;
         border-radius: 0px 5px 5px 0px;
         height: 52px;
-        background-color: rgb(65, 94, 133);
+        background-color: rgb(35, 59, 92);
+        transition: color 2s;
         border: none;
         overflow: hidden;
         #buttonSun {
@@ -48,7 +49,7 @@
             transition: left 5s;
         }
         &:hover {
-            background-color: rgb(34, 58, 124);
+            background-color: rgb(65, 94, 133);
         }
         &:hover #buttonCloud  {
             left: 80px;

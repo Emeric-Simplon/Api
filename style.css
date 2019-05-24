@@ -22,7 +22,8 @@
       font-weight: 600;
       border-radius: 0px 5px 5px 0px;
       height: 52px;
-      background-color: #415e85;
+      background-color: #233b5c;
+      transition: color 2s;
       border: none;
       overflow: hidden; }
       * .field button #buttonSun {
@@ -44,7 +45,7 @@
         top: 5px;
         transition: left 5s; }
       * .field button:hover {
-        background-color: #223a7c; }
+        background-color: #415e85; }
       * .field button:hover #buttonCloud {
         left: 80px; }
       * .field button:hover #buttonCloudTop {
