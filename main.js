@@ -87,4 +87,10 @@ function getWeather(){
                     source.innerHTML = article.articles[0].source.name;
                 })
         }
+inputElt.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        getValue.click();
+    }
+    });
         
