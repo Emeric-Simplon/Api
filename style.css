@@ -67,7 +67,7 @@
     margin: auto;
     width: 40% !important;
     border-radius: 10px;
-    background-color: #415e85;
+    background: linear-gradient(to right, #4ecdc4, #556270);
     opacity: 0;
     transition: opacity 0.5s;
     display: flex;
