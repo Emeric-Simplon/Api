@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.field {
+    width: 40%;
+    height: 52px;
+    margin: 30px auto;
+    input {
+        opacity: 1;
+        z-index: 10;
+        font-size: 20px;
+        height: 100%;
+        border-radius: 5px 0px 0px 5px;
+    }
+    button{
+        z-index: 1;
+        position: relative;
+        width: 70px;
+        vertical-align: top;
+        margin-left: -5;
+        color: white;
+        font-weight: 600;
+        border-radius: 0px 5px 5px 0px;
+        height: 52px;
+        background-color: rgb(65, 94, 133);
+        border: none;
+        overflow: hidden;
+        #buttonSun {
+            position: absolute;
+            color: yellow;
+            left: -30px;
+            top: -2px;
+            transition: left 4s;
+            font-size: 2em;
+        }
+        #buttonCloud {
+            position: absolute;
+            left: -20px;
+            bottom: 2px;
+            transition: left 4s;
+            font-size: 2em;
+        }
+        #buttonCloudTop {
+            position: absolute;
+            left: -10px;
+            top: 5px;
+            transition: left 5s;
+        }
+        &:hover {
+            background-color: rgb(34, 58, 124);
+        }
+        &:hover #buttonCloud  {
+            left: 80px;
+        }
+        &:hover #buttonCloudTop {
+            left : 80px;
+        }
+        &:hover #buttonSun {
+            left: -10px;
+            overflow: hidden;
+        }
+    }
+}
+h2 {
+    padding: 2%;
+    font-size: 50px;
+    
+}
+.container {
+    color: white;
+    margin: auto;
+    width: 40%!important; 
+    border-radius: 10px;
+    background-color: rgb(65, 94, 133);
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    i {
+        padding: 2%;
+        font-size: 1.5em;
+    }
+}}
+#presse {
+    opacity: 0;
+    width: 50%;
+    border: solid;
+    border-radius: 10px;
+    transition: opacity 0.5s;
+    margin: 2%;
+    h3 {
+        padding: 2%;
+    }
+    span {
+        padding: 2%;
+    }
+    p {
+        padding: 2%;
+    }
+}

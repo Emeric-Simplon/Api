@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>METEO</title>
+  </head>
+  <body>
+    <div class="field">
+      <input type="text" name="town" placeholder="Entrer le nom  d'une Ville"/>
+      <button id="getValue" onclick="getWeather()"><i id="buttonCloud" class="fas fa-cloud"></i><i id="buttonCloudTop" class="fas fa-cloud"></i><i id='buttonSun' class="fas fa-sun"></i>Envoyer</button>
+    </div>
+    <article id='cont'class="container">
+      <h2></h2>
+    <i class="fas fa-thermometer-three-quarters "> : <span id="min"> </span><span id="max"> </span></i>
+    <i class="fas fa-tint"> : <span id="hum"> </span></i>
+    <i class="fas fa-map-marker-alt"> : <span id="lieu"> </span></i>
+    <i class="fas fa-cloud-sun" id="icone"> : <span id="condition"> </span></i>
+    <i class="far fa-clock"> : <span id="time"> </span></i>
+  </article>
+  <article id="presse">
+    <h3 id="articleTitle"></h3>
+    <span id="author"></span>
+    <p id="contenu"></p>
+    <span id="source"></span>
+   
+  </article>
+    <script src="main.js"></script>
+  </body>
+</html>
