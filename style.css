@@ -1,3 +1,8 @@
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 * {
   margin: 0;
   padding: 0;
@@ -29,6 +34,7 @@
       * .field button #buttonSun {
         position: absolute;
         color: yellow;
+        animation: rotating 4s linear infinite;
         left: -30px;
         top: -2px;
         transition: left 4s;

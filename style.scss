@@ -1,3 +1,11 @@
+@-webkit-keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +33,13 @@
         height: 52px;
         background-color: rgb(35, 59, 92);
         transition: background-color 2s;
+        
         border: none;
         overflow: hidden;
         #buttonSun {
             position: absolute;
             color: yellow;
+            animation: rotating 4s linear infinite;
             left: -30px;
             top: -2px;
             transition: left 4s;
