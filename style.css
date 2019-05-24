@@ -23,7 +23,7 @@
       border-radius: 0px 5px 5px 0px;
       height: 52px;
       background-color: #233b5c;
-      transition: color 2s;
+      transition: background-color 2s;
       border: none;
       overflow: hidden; }
       * .field button #buttonSun {
